@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #2a445b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.second {
+    text-align: center;
+    width: 73%;
+    border: 3px solid #c5d4ff;
+    border-radius: 9px 57px;
+    margin: 12px 0px;
+    background: #86a4ec;
+}
+
+h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Montserrat";
+}
+
+h3 {
+    padding-bottom: 25px;
+    font-family: "Montserrat";
+}
+
+table {
+    width: 100%;
+    border: 1px solid;
+    padding: 9px;
+    height: 69vh;
+    overflow: scroll;
+    background: #86a4ec;
+}
+
+table tr {
+    border: 2px solid black;
+}
+
+.button {
+    padding-bottom: 10px;
+}
+
+.btn {
+    box-shadow: 6px 6px 29px -4px rgb(0 0 0 / 75%);
+    padding: 1px 3px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pop {
+    background-color: rgb(42 68 91);
+    width: 24%;
+    height: 36vh;
+    position: absolute;
+    display: none;
+    /* left: 520px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-content {
+    height: 100%;
+    width: 100%;
+    background: #fcfafa45;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+input {
+    margin: 20px auto;
+    display: block;
+    width: 75%;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+ion-icon {
+    zoom: 3.5;
+    color: black;
+}
+
+.close {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    background: black;
+}
+
